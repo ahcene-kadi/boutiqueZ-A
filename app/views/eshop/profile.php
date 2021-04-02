@@ -23,17 +23,17 @@
                 <!-- WHITE PANEL - TOP USER -->
                 <div class="white-panel pn">
                     <div class="white-header" style="color:grey">
-                        <h5>MY ACCOUNT</h5>
+                        <h5>MON COMPTE</h5>
                     </div>
                     <p><img src="<?= ASSETS . THEME ?>admin/img/ui-zac.jpg" class="img-circle" width="80"></p>
                     <p><b><?= $data['user_data']->name ?></b></p>
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="small mt">MEMBER SINCE</p>
+                            <p class="small mt">MEMBRE DEPUIS</p>
                             <p><?= "Le" . " " . date("j M Y", strtotime($data['user_data']->date)) ?></p>
                         </div>
                         <div class="col-md-6">
-                            <p class="small mt">TOTAL SPEND</p>
+                            <p class="small mt">TOTAL COMMANDE</p>
                             <p>$ 47,60</p>
                         </div>
                     </div>
@@ -41,10 +41,10 @@
                     <hr style="color:#888">
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="small mt" style="cursor: pointer;color: green;"><i class="fa fa-edit"></i> EDIT</p>
+                            <p class="small mt" style="cursor: pointer;color: green;"><i class="fa fa-edit"></i> MODIFIER</p>
                         </div>
                         <div class="col-md-6">
-                            <p class="small mt" style="cursor: pointer;color: red;">DELETE</p>
+                            <p class="small mt" style="cursor: pointer;color: red;"> SUPPRIMER</p>
                         </div>
                     </div>
                 </div>
